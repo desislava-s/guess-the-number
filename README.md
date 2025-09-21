@@ -22,7 +22,7 @@ A simple Python console game where the player tries to guess the number randomly
 - **Built-in `random` module** → generates the secret number.
 
 ### Tools Used
-- **IDE / Editor**: PyCharm, VS Code, or any text editor
+- **IDE**: PyCharm
 - **GitHub** → host the repository and share the project.
 
 ## How It Works
