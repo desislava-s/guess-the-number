@@ -43,3 +43,14 @@ A simple Python console game where the player tries to guess the number randomly
 2. Clone the repository:
    ```bash
    git clone https://github.com/desislava-s/guess-the-number.git
+
+## Screenshots
+<img width="488" height="250" alt="image" src="https://github.com/user-attachments/assets/e11cd4cf-8b5e-43ed-847e-59f97ea8a20b" />
+<img width="631" height="243" alt="image" src="https://github.com/user-attachments/assets/580d4583-87c4-4faa-98a6-d2c294cf7965" />
+
+## Source Code
+
+ [Source code](guess_the_number.py)
+
+
+
