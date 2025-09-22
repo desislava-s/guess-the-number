@@ -35,6 +35,16 @@ A simple Python console game where the player tries to guess the number randomly
 4. The loop continues until the player guesses correctly.
 5. The program displays how many attempts it took.
 
+**New Features**:  
+   - **Restart option** → after finishing a game, the player can decide to play again or exit.  
+   - **Guess counter** → the game tracks how many attempts were needed to find the number and displays it in the winning message.  
+   - **Levels with increasing difficulty** →  
+     - Level 1 starts with range `1–100`.  
+     - Each time the player guesses correctly, the level increases and the range expands by +25 (Level 2: 1–125, Level 3: 1–150, etc.).  
+     - The player can continue to the next level or quit.  
+
+This setup makes the game progressively more challenging and keeps the player engaged.
+
 ---
 
 ## 🚀 How to Run
@@ -47,12 +57,15 @@ A simple Python console game where the player tries to guess the number randomly
 ## 📄 Screenshots
 <img width="488" height="250" alt="image" src="https://github.com/user-attachments/assets/e11cd4cf-8b5e-43ed-847e-59f97ea8a20b" />
 <img width="631" height="243" alt="image" src="https://github.com/user-attachments/assets/580d4583-87c4-4faa-98a6-d2c294cf7965" />
+<img width="537" height="195" alt="image" src="https://github.com/user-attachments/assets/459ff246-ed65-451e-a856-a4aac588f01b" />
+
 
 ## 📂 Source Code
 
  [Source code](guess_the_number.py)
 
 ## 📝 Changelog
+- v1.3: Added levels - after each win, the player advances to a higher level with a larger number range.
 - v1.2: Added guess counter - game now shows how many attempts the player needed to guess the number.
 - v1.1: Added restart option so players can play multiple rounds in a row.
 - v1.0: Initial version of the game.
