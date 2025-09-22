@@ -53,7 +53,7 @@ A simple Python console game where the player tries to guess the number randomly
  [Source code](guess_the_number.py)
 
 ## 📝 Changelog
-
+- v1.2: Added guess counter - game now shows how many attempts the player needed to guess the number.
 - v1.1: Added restart option so players can play multiple rounds in a row.
 - v1.0: Initial version of the game.
 
