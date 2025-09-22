@@ -1,19 +1,28 @@
 import random
 
-target_number = random.randint(1, 100)
 while True:
-    player_input = input("Guess the number (1-100): ")
+    target_number = random.randint(1, 100)
+    print(target_number)
 
-    if not player_input.isdigit():
-        print("Invalid input! Please enter a number between 1 and 100.")
-        continue
+    while True:
+        player_input = input("Guess the number (1-100): ")
 
-    player_number = int(player_input)
+        if not player_input.isdigit():
+            print("Invalid input! Please enter a number between 1 and 100.")
+            continue
 
-    if player_number == target_number:
-        print("Correct! You guessed the number!")
+        player_number = int(player_input)
+
+        if player_number == target_number:
+            print("Correct! You guessed the number!")
+            break
+        elif player_number > target_number:
+            print("Too high! Try again.")
+        else:
+            print("Too low! Try again.")
+
+    play_again = input("Do you want to start new game? (y/n): ").lower()
+
+    if play_again != "y":
+        print("Thank you for playing! Goodbye!")
         break
-    elif player_number > target_number:
-        print("Too high! Try again.")
-    else:
-        print("Too low! Try again.")
